@@ -1,0 +1,80 @@
+html,
+ body, 
+header,
+#intro {
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* *{
+
+background-color: black;
+
+}
+ */
+
+
+
+
+
+#intro {
+   
+   background:url( "img.jpg");
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: rgb(48, 52, 63);
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color:  rgb(48, 52, 63);
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color:  rgb(48, 52, 63);
+    }
+  }
+ 
+.mystyle{
+    visibility: collapse;
+}
+/* .btn.btn-outline-yellow.white-text{
+    visibility:hidden;
+} */
+img:hover{
+  transform : scale(1.2);
+}
+img{
+  padding: 2px;
+  transition: transform .2s; /* Animation */
+  /* width: 200px;
+  height: 200px; */
+  margin: 0 auto;
+}
+
+.img-fluid{
+  padding:2px;
+  transition:transform .2s 
+}
+.img-fluid:hover{
+  transform: scale(1.2) ;
+}
+.images{
+    transition:transform .2s ;
+    /* transform: scale(1.2) ; */
+    padding: 1px;
+}
+.images :hover{
+    transform: scale(1.2) ; 
+}
+.myVideo{
+  /* position:fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background-size: cover; */
+}
